@@ -1,0 +1,33 @@
+﻿Centro Federal de Educação Tecnológica de Minas Gerais
+Laboratório de Sistemas Operacionais
+Aluna: Daniele de Souza Lima
+
+1) Qual a necessidade da chamada a malloc no código context.c
+
+A chamada da malloc no código context.c é necessária para a alocação de memória para a criação
+de uma pilha onde será empilhado o novo contexto (valores de variáveis, endereços de retorno)
+criado. Ou seja, antes de chamar makecontext(), o chamador deve alocar uma nova pilha para o 
+contexto.
+
+
+2) O que é um contexto, para que precisamos criar novos contextos no exemplo.
+
+Contexto: Informações sobre o estado do programa, tais como o conteúdo dos registradores.
+
+Troca de contexto: 
+Quando o processador mudou de um processo para outro o seu estado (o processador registra e associa dados)
+foi salvo, pois algum tempo depois, foi reiniciado o processo continuando como se nunca fora interrompido.
+Uma vez esse estado tenha sido salvo, o próximo processo em espera foi ativado. 
+Isso envolveu a carga nos registros dos registradores do processador e na memória, com todos os dados 
+previamente salvos e iniciando na instrução que seria executada quando houve a ultima interrupção.
+  
+
+3) Qual a diferença entre getcontext+setcontext e swapcontext.
+
+-> getcontext(&A): inicializa a estrutura apontada por A para o contexto ativo atualmente.
+ 
+-> setcontext(&A): restaura o contexto que o usuário apontou para A. Uma chamada bem-sucedida não retorna. 
+  		   O contexto deve ter sido obtido por uma chamada de getContext (), ou makecontext(), ou 
+                   passado como terceiro argumento para um manipulador de sinal.
+
+-> swapcontext (&X, &Y): salva o contexto atual na estrutura apontada por X, em seguida, ativa o contexto apontado por Y.
