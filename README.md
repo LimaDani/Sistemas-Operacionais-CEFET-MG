@@ -16,23 +16,17 @@ Class: 02/2016
 
 - T4: Troca de Contexto / Context Switch: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:trocas_de_contexto
 
-- T5: Algoritmo de Peterson / Peterson's Algorithm: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:espera_ocupada
+- T5: Prod-Consumidor / Producer-Consumer: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:produtor_consumidor
 
-- T6: Prod-Consumidor / Producer-Consumer: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:produtor_consumidor
+- T6: Jantar dos filósofos / Dining Philosophers: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:jantar_dos_filosofos
 
-- T7: Jantar dos filósofos / Dining Philosophers: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:jantar_dos_filosofos
+- T7: Escalonamento / Scheduling: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:algoritmos_de_escalonamento
 
-- T8: Escalonamento / Scheduling: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:algoritmos_de_escalonamento
+- T8: Gestão de Tarefas / Task Management: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:gestao_de_tarefas
 
-- T9: Gestão de Tarefas / Task Management: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:gestao_de_tarefas
+- T9: Despache de Tarefas / Task Dispatcher: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:dispatcher
 
-- T10: Despache de Tarefas / Task Dispatcher: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:dispatcher
+- T10: Escalonamento por Prioridades / Priority Scheduling: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:escalonador_por_prioridades
 
-- T11: Escalonamento por Prioridades / Priority Scheduling: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:escalonador_por_prioridades
 
-- T12: Peempção e compartilhamento de tempo / Preemption and Time Sharing: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:preempcao_por_tempo
-
-- T13: Contabilização de Tarefas + Tarefa Main / Task Counter + Main Task: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:contabilizacao + http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:tarefa_main
-
-- T14: Algoritmos de Substituição de Páginas / Page Replacement Algorithm: http://dainf.ct.utfpr.edu.br/~maziero/doku.php/so:algoritmos_de_substituicao_de_paginas
 
